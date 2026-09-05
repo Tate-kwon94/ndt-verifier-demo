@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+data/
+!data/.gitkeep
+samples/*
+!samples/.gitkeep
+!samples/synthetic/
+dist/
+*.xlsx
+*.pdf
+!samples/synthetic/**/*.xlsx
+!samples/synthetic/**/*.pdf
